@@ -1,0 +1,52 @@
+.ag-theme-material {
+
+    --ag-header-height: 30px;
+    --ag-background-color: rgba(4, 68, 68, 0.1);
+    --ag-header-foreground-color: rgb(0, 0, 0);
+    --ag-header-background-color: rgba(61, 147, 134, 0.7);
+    --ag-odd-row-background-color: rgb(0, 0, 0, 0.03);
+    --ag-header-cell-hover-background-color: rgb(40, 140, 80);
+    --ag-header-column-separator-display: block;
+    --ag-header-column-separator-height: 100%;
+    --ag-header-column-separator-width: 1px;
+    --ag-header-column-separator-color: rgba(4, 68, 68, 0.3);
+
+    --ag-material-primary-color: rgb(51, 92, 54);
+    --ag-font-size: 10px;
+    --ag-font-family: system-ui;
+    --ag-row-hover-background-color: rgb(40, 140, 80);
+    --ag-borders-row: solid 1px;
+    --ag-border-color: rgba(61, 147, 134, 0.7);
+
+    --ag-grid-size: 3px;
+    --ag-list-item-height: 20px;
+    --ag-selected-row-background-color: rgba(245, 213, 8, 0.72);
+}
+
+
+
+.ag-theme-material-regions {
+    --ag-header-height: 16px;
+    --ag-background-color: rgba(4, 68, 68, 0.1);
+    --ag-header-foreground-color: rgb(0, 0, 0);
+    --ag-header-background-color: rgba(61, 104, 147, 0.7);
+    --ag-odd-row-background-color: rgb(0, 0, 0, 0.03);
+    --ag-header-cell-hover-background-color: rgb(40, 95, 140);
+    --ag-header-column-separator-display: block;
+    --ag-header-column-separator-height: 100%;
+    --ag-header-column-separator-width: 1px;
+    --ag-header-column-separator-color: rgba(8, 4, 68, 0.25);
+
+    --ag-material-primary-color: rgb(51, 65, 92);
+    --ag-font-size: 10px;
+    --ag-font-family: system-ui;
+    --ag-row-hover-background-color: rgb(40, 87, 140);
+    --ag-borders-row: solid 1px;
+    --ag-border-color: rgba(61, 78, 147, 0.7);
+    --ag-selected-row-background-color: rgba(245, 115, 8, 0.51);
+
+    --ag-grid-size: 3px;
+    --ag-list-item-height: 20px;
+}
+
+
