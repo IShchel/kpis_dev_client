@@ -35,8 +35,8 @@ const Mpe1gem = observer(() => {
   const { regions_fo, mpe1gem } = useContext(Context);
   const [titleHeight, setTitleHeight] = useState(0);
   const refTitle = useRef(null);
-  const [modalActive, setModalActive] = useState(false);
-  const [modalTitle, setModalTitle] = useState("");
+  // const [modalActive, setModalActive] = useState(false);
+  // const [modalTitle, setModalTitle] = useState("");
 
   useEffect(() => {
     setTitleHeight(refTitle.current.clientHeight);
@@ -46,7 +46,7 @@ const Mpe1gem = observer(() => {
     fetchFromR1022().then((data) => {
       regions_fo.setList(data);
       regions_fo.setListBySearch(data);
-    });
+    }).catch(err => alert(err))
   }, [regions_fo.empty]);
 
   let regionTableData = useMemo(

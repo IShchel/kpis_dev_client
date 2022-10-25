@@ -11,8 +11,8 @@ const Mpe1GemTable = observer(() => {
 
   useEffect(() => {
     fetchMpe1gemSelected(regions_fo.selectedItem.p00).then((data) => {
-      mpe1gem.setMpe1gemList(data);
-    });
+      mpe1gem.setMpe1gemList(data)
+    }).catch(err => alert(err))
   }, [regions_fo.selectedItem,mpe1gem.newModal]);
 
   return (
